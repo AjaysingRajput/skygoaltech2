@@ -1,0 +1,187 @@
+.activities{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activities-main{
+  width: 70%;
+  height: 90%;
+  overflow: hidden;
+}
+.activities-circle{
+  width: 100%;
+  overflow: hidden; 
+}
+.activities-circle img{
+  width: 166px;
+   height: 168px;
+   float: right;
+   margin-right: 5vw;
+}
+.activities-box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+.activities-left{
+  display: flex;
+  flex-direction: column;
+}
+.activities-left .profile{
+  width: 70%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ box-shadow: 4px 4px lightgrey;
+ padding: 10px 20px;
+ border: 1px solid whitesmoke;
+ border-radius: 15px;
+ margin-bottom: 50px;
+ cursor: pointer;
+ transition: transform 0.3s ease;
+}
+.activities-left .profile:hover{
+  transform: scale(1.1)
+}
+.activities-left .profile .profile-right{
+  margin-left: 10px;
+  
+}
+.activities-right{
+  width: 45%;
+}
+.activities-right img{
+  width: 40px;
+}
+.activities-right-top{
+  margin: 16px;
+  padding-left: 60px;
+  font-family: sans-serif;
+}
+.activities-right-top .p-student{
+  font-size: 25px;
+  margin: 0;
+}
+.activities-right-top-p{
+  margin: 0;
+  margin-top: 6px;
+}
+
+.activities-right-p{
+  margin-top: 20px;
+
+}
+.dot{
+  height: 5px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-inline: 5px;
+}
+p{
+  margin: 5px;
+}
+.activities-button{
+  width: 200px;
+  height: 51px;
+  margin-top: 50px;
+  border-radius: 50px;
+  background-color: rgba(242, 122, 68, 1);
+  color: whitesmoke;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.activities-button:hover{
+  transform: scale(1.1);
+}
+
+
+/* Destination Section */
+.destination-main{
+  width: 100%;
+  height: 100vh;
+  margin: 110px 0 0 100px;
+  box-sizing: border-box;
+  overflow: hidden;
+ 
+}
+.our-Destination{
+  margin-bottom: 50px;
+}
+.desti-cards{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.our-Destination h1{
+  font-size: 50px;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.destination-card{
+  width: 360px;
+  height: 70%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  overflow: hidden;
+  box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.2), /* Right bottom shadow */
+        -5px -5px 10px rgba(0, 0, 0, 0.2), /* Left top shadow */
+        5px -5px 10px rgba(0, 0, 0, 0.2), /* Right top shadow */
+        -5px 5px 5px rgba(0, 0, 0, 0.2); /* left bottom shadow */
+  transition: transfrom 0.3s ease;
+}
+.destination-card:hover{
+  transform: scale(1.1);
+}
+.destination-card img{
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.card-bottom{
+  margin: 20px 0 0 25px;
+  font-family: sans-serif;
+}
+.card-bottom h1{
+  transition: transfrom 0.3s ease;
+  cursor: pointer;
+}
+.card-bottom h1:hover{
+  transform: scale(0.9);
+}
+.card-bottom .Uni-place{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-bottom .Uni-place p{
+  transition: transfrom 0.3s ease;
+  cursor: pointer;
+}
+.card-bottom .Uni-place p:hover{
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.Uni-place  .uni-point{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(217, 213, 213);
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
